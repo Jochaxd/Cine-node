@@ -13,6 +13,9 @@ body {
   height: 100%;
   font-family: Helvetica, Arial, serif;
 }
+img{
+  cursor: pointer;
+}
 
 .calendar {
   margin: 4rem;
