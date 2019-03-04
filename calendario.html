@@ -12,8 +12,16 @@ License URL: https://www.designmaz.net/licence/
 <meta charset="utf-8">
 </head>
 <body onload="cargarpeliculasdelmesyanno()">
-	<h1>Febrero</h1>
-	<input type="hidden" id="mes" value="2"/>
+	<header>
+		<nav>
+			<ul id="navi">
+				<li><a href="calendario.html">Películas disponibles</a></li>
+				<li><a href="nuevapelicula.html">Nueva Película</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Marzo</h1>
+	<input type="hidden" id="mes" value="3"/>
 	<input type="hidden" id="anno" value="2019"/>
 	<ol class="calendar">
 		  <li class="calendar-day calendar-day--begin-week calendar-day--past calendar-day--not-month" data-weekday="Mon" data-week="39">
@@ -186,7 +194,7 @@ License URL: https://www.designmaz.net/licence/
 	  	</li>
 	</ol>
 	<script type="text/javascript" src="frontend.js"></script>
-	<script type="text/javascript"></script>
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
  	<script type="text/javascript">
     function agregaimgdepeliculaaldiv(imgenbase64,iddeldiv,iddelapelicula)  //  Primero llega a la funcion de abajo cargarpeliculasdelmesyanno
     {

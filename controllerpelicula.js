@@ -38,7 +38,7 @@ module.exports = class _Pelicula {
     }
     
   Modificar(req,res) {
-		Item.update( {_id : req.body.id}, //Modifica un item creado anteriormente
+		Item.update( {_id : req.body._id}, //Modifica un item creado anteriormente
 			  {$set:
 			      {
               NOMBRE: req.body.NOMBRE, 
